@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="BUSINESS TRAVEL" />
+
+
+<title>MADRID GROUP</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="site_libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="site_libs/vis-4.16.1/vis.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="site_libs/timevis-binding-0.4/timevis.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="FORMATO.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CE Events</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Quotation</a>
+</li>
+<li>
+  <a href="about.html">Credentials</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">MADRID GROUP</h1>
+<h4 class="author"><em>BUSINESS TRAVEL</em></h4>
+<h4 class="date"><em>28 September, 2020</em></h4>
+
+</div>
+
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script>
+<div id="programme" class="section level2">
+<h2>Programme</h2>
+<div id="programme-overview-and-timeline" class="section level3">
+<h3><strong>Programme Overview and timeline</strong></h3>
+<div id="htmlwidget-5f3f0bcf0e93ae4227f0" class="timevis html-widget" style="width:100%;height:300px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-5f3f0bcf0e93ae4227f0">{"x":{"items":[{"id":"1","start":"2019-09-28 20:00:00","content":"Dinner at Cafe Gijon","group":"4","type":"box","style":"background-color:#FF9933;"},{"id":"2","start":"2019-09-29 20:00:00","content":"Dinner at Sinsombrero","group":"4","type":"box","style":"background-color:#FF9933;"}],"groups":[{"id":"1","content":"Morning"},{"id":"2","content":"Lunch"},{"id":"3","content":"Afternoon"},{"id":"4","content":"Diner"}],"showZoom":true,"zoomFactor":0.2,"fit":true,"options":[],"height":300,"api":[{"method":"setOptions","options":{"orientation":"top","align":"left"}}]},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div id="suggested-restaurants" class="section level2">
+<h2>Suggested Restaurants</h2>
+<div id="september-28th" class="section level3 tabset tabset-fade tabset-pills">
+<h3>September 28th</h3>
+<div id="main-option-cafe-gijon" class="section level4">
+<h4>Main option: Cafe Gijon</h4>
+<iframe src="CAFE GIJON/CafeGijon.html" frameborder="0" width="100%" height="900" scrolling="no">
+</iframe>
+<p><strong>Menu</strong></p>
+<p><em>Aperitive</em></p>
+<ul>
+<li>Oxtail croquettes</li>
+</ul>
+<p><br></p>
+<p><em>Starters</em></p>
+<ul>
+<li><p>Albahaca salmorejo with tuna sashimi</p></li>
+<li><p>Clams spanish style</p></li>
+<li><p>Duck lasagna (with orange)</p></li>
+<li><p>Tagliatelle salad with allioli, peppers and tuna.</p></li>
+</ul>
+<p><br></p>
+<p><em>Main course to choose</em></p>
+<ul>
+<li><p>Seafood-stuffed hake</p></li>
+<li><p>Iberica prey strips (Iberian pork)</p></li>
+<li><p>Cordon-blue escalope</p></li>
+</ul>
+<p><br></p>
+<p><em>Desert and coffee</em></p>
+<ul>
+<li>White chocolate Pannacotta</li>
+</ul>
+<p><em>Drink package included</em></p>
+<p><strong>40€ per person</strong></p>
+<p><br></p>
+</div>
+<div id="alternative-la-mucca-de-serrano" class="section level4">
+<h4>Alternative: La Mucca de Serrano</h4>
+<iframe src="LAMUCCA DE SERRANO/LaMuccadeSerrano.html" frameborder="0" width="100%" height="700" scrolling="no">
+</iframe>
+<p><strong>Menu</strong></p>
+<p><em>To Share menu</em></p>
+<ul>
+<li>New Pisco</li>
+<li>Spanish potatoes</li>
+<li>Homemade croquettes</li>
+<li>Nachos Teki</li>
+<li>Green salad</li>
+<li>Boletus pizza</li>
+<li>Curry chicken</li>
+<li>Fish and chips</li>
+</ul>
+<p><em>Desserts</em></p>
+<ul>
+<li>Assortment of desserts</li>
+</ul>
+<p><em>Drink package is included. 1 bottle each 3</em></p>
+<p><strong>40€ per person</strong></p>
+<p><br></p>
+</div>
+</div>
+<div id="september-29th" class="section level3 tabset tabset-fade tabset-pills">
+<h3>September 29th</h3>
+<div id="main-option-sinsombrero" class="section level4">
+<h4>Main option: Sinsombrero</h4>
+<iframe src="SINSOMBRERO/Sinsombrero.html" frameborder="0" width="100%" height="1000" scrolling="no">
+</iframe>
+<p><strong>Menu</strong></p>
+<p><em>Starters</em></p>
+<ul>
+<li><p>Russian salad with tuna</p></li>
+<li><p>Iberic ham croquettes</p></li>
+<li><p>Special pizza of picanha, red pesto, arugula and stracciatela.</p></li>
+</ul>
+<p><em>Main course to choose</em></p>
+<ul>
+<li><p>Roasted salmon with miso</p></li>
+<li><p>Ox burguer with cheese and glazed shallots</p></li>
+</ul>
+<p><br></p>
+<p><em>Desert</em></p>
+<ul>
+<li>Chocolate cke with maracuya soup, crunchy honey and cookie ice cream.</li>
+</ul>
+<p><br></p>
+<p><strong>37,5€ per person</strong></p>
+<p><strong>Drinks not included. Drink package is 12€ pax</strong></p>
+</div>
+<div id="alternative-sagardi-castellana" class="section level4">
+<h4>Alternative: Sagardi Castellana</h4>
+<iframe src="SAGARDI CASTELLANA/SagardiCastellana.html" frameborder="0" width="100%" height="1000" scrolling="no">
+</iframe>
+<p><strong>Menu</strong></p>
+<p>8 pintxos + 2 drinks + 2 sweets (per person)</p>
+<p><em>Pintxos to be chosen in advance</em></p>
+<p><strong>34€ per person</strong></p>
+<p><br></p>
+</div>
+</div>
+</div>
+<div id="map" class="section level2">
+<h2>Map</h2>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1FVfAQOfiSzfr3g3ijd_Di5xwdRjHeopy" width="640" height="480">
+</iframe>
+<hr />
+</div>
+<div id="terms-conditions" class="section level2">
+<h2>Terms &amp; Conditions</h2>
+<ul>
+<li><p>Rates valid for 2019.</p></li>
+<li><p>Net rates for Business travel</p></li>
+<li><p>Cutting Edge Events management fee including in the detailed rates</p></li>
+<li><p>VAT included.</p></li>
+<li><p>No reservation has been done. Availability upon request.</p></li>
+</ul>
+<hr />
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

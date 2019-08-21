@@ -1,0 +1,209 @@
+---
+title: "MADRID GROUP"
+author: "BUSINESS TRAVEL"
+date: '28 September, 2020'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+## Programme
+
+### **Programme Overview and timeline**
+
+```{r timeline overview}
+
+timeline <- read_excel("timeline.xlsx", sheet = "Sheet1", 
+    col_types = c("date", 
+        "text", "text", "numeric", "text", 
+        "text"))
+
+data <- data.frame( id = 1:length(timeline$start),
+                    start = as.POSIXlt(timeline$start),
+                    content = timeline$content,
+                    group = timeline$group,
+                    type = "box",
+                    style = "background-color:#FF9933;")
+
+groups = data.frame(id = 1:4, content = c("Morning", "Lunch", "Afternoon", "Diner"))
+
+tl <- timevis(data, groups, showZoom = TRUE, zoomFactor = 0.2, fit = TRUE, width = '100%', height = 300)
+
+tl %>% setOptions(list(orientation = "top", align = "left"))
+
+```
+
+## Suggested Restaurants
+
+### September 28th {.tabset .tabset-fade .tabset-pills}
+
+#### Main option: Cafe Gijon
+
+<iframe src="CAFE GIJON/CafeGijon.html" frameborder="0" width="100%" height="900" scrolling="no"></iframe>
+
+**Menu**
+
+*Aperitive*
+
+- Oxtail croquettes
+
+<br>
+
+*Starters*
+
+- Albahaca salmorejo with tuna sashimi
+
+- Clams spanish style
+
+- Duck lasagna (with orange)
+
+- Tagliatelle salad with allioli, peppers and tuna.
+
+<br>
+
+*Main course to choose*
+
+- Seafood-stuffed hake 
+
+- Iberica prey strips (Iberian pork)
+
+- Cordon-blue escalope
+
+<br>
+
+*Desert and coffee*
+
+- White chocolate Pannacotta 
+
+*Drink package included*
+
+**40€ per person**
+
+<br>
+
+#### Alternative: La Mucca de Serrano
+
+<iframe src="LAMUCCA DE SERRANO/LaMuccadeSerrano.html" frameborder="0" width="100%" height="700" scrolling="no"></iframe>
+
+**Menu**
+
+*To Share menu*
+
+- New Pisco
+- Spanish potatoes
+- Homemade croquettes
+- Nachos Teki
+- Green salad
+- Boletus pizza
+- Curry chicken
+- Fish and chips
+
+*Desserts*
+
+- Assortment of desserts
+
+*Drink package is included. 1 bottle each 3*
+
+**40€ per person**
+
+<br>
+
+### September 29th {.tabset .tabset-fade .tabset-pills}
+
+#### Main option: Sinsombrero 
+
+<iframe src="SINSOMBRERO/Sinsombrero.html" frameborder="0" width="100%" height="1000" scrolling="no"></iframe>
+
+**Menu**
+
+*Starters* 
+
+- Russian salad with tuna
+
+- Iberic ham croquettes
+
+- Special pizza of picanha, red pesto, arugula and stracciatela.
+
+*Main course to choose*
+
+- Roasted salmon with miso
+
+- Ox burguer with cheese and glazed shallots
+
+<br>
+
+*Desert*
+
+- Chocolate cke with maracuya soup, crunchy honey and cookie ice cream.
+
+<br>
+
+**37,5€ per person**
+
+**Drinks not included. Drink package is 12€ pax**
+
+#### Alternative: Sagardi Castellana
+
+<iframe src="SAGARDI CASTELLANA/SagardiCastellana.html" frameborder="0" width="100%" height="1000" scrolling="no"></iframe>
+
+**Menu**
+
+8 pintxos + 2 drinks + 2 sweets (per person)
+
+*Pintxos to be chosen in advance*
+
+**34€ per person**
+
+<br>
+
+## Map
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1FVfAQOfiSzfr3g3ijd_Di5xwdRjHeopy" width="640" height="480"></iframe>
+
+*****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Business travel
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
