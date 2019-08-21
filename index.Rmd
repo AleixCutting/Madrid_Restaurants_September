@@ -68,7 +68,8 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 <iframe src="CAFE GIJON/CafeGijon.html" frameborder="0" width="100%" height="900" scrolling="no"></iframe>
 
-**Menu**
+
+**Basic Menu**
 
 *Aperitive*
 
@@ -112,7 +113,8 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 <iframe src="LAMUCCA DE SERRANO/LaMuccadeSerrano.html" frameborder="0" width="100%" height="700" scrolling="no"></iframe>
 
-**Menu**
+
+**Basic Menu**
 
 *To Share menu*
 
@@ -141,7 +143,8 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 <iframe src="SINSOMBRERO/Sinsombrero.html" frameborder="0" width="100%" height="1000" scrolling="no"></iframe>
 
-**Menu**
+
+**Basic Menu**
 
 *Starters* 
 
@@ -173,7 +176,8 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 <iframe src="SAGARDI CASTELLANA/SagardiCastellana.html" frameborder="0" width="100%" height="1000" scrolling="no"></iframe>
 
-**Menu**
+
+**Basic Menu**
 
 8 pintxos + 2 drinks + 2 sweets (per person)
 
