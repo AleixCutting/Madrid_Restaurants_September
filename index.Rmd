@@ -168,7 +168,7 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 <br>
 
-**37,5€ per person**
+**37€ per person**
 
 **Drinks not included. Drink package is 12€ pax**
 
