@@ -131,13 +131,13 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 - Assortment of desserts
 
-*Drink package is included. 1 bottle each 3*
+*Drink package is included. 1 bottle of wine each 3*
 
 **40€ per person**
 
 <br>
 
-### September 29th {.tabset .tabset-fade .tabset-pills}
+### September 30th {.tabset .tabset-fade .tabset-pills}
 
 #### Main option: Sinsombrero 
 
