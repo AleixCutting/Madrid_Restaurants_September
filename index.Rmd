@@ -34,31 +34,6 @@ library(timevis)
 
 ```
 
-## Programme
-
-### **Programme Overview and timeline**
-
-```{r timeline overview}
-
-timeline <- read_excel("timeline.xlsx", sheet = "Sheet1", 
-    col_types = c("date", 
-        "text", "text", "numeric", "text", 
-        "text"))
-
-data <- data.frame( id = 1:length(timeline$start),
-                    start = as.POSIXlt(timeline$start),
-                    content = timeline$content,
-                    group = timeline$group,
-                    type = "box",
-                    style = "background-color:#FF9933;")
-
-groups = data.frame(id = 1:4, content = c("Morning", "Lunch", "Afternoon", "Diner"))
-
-tl <- timevis(data, groups, showZoom = TRUE, zoomFactor = 0.2, fit = TRUE, width = '100%', height = 300)
-
-tl %>% setOptions(list(orientation = "top", align = "left"))
-
-```
 
 ## Suggested Restaurants
 
@@ -103,9 +78,13 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 - White chocolate Pannacotta 
 
-*Drink package included*
+*Drinks*
+
+- Red or white wine (1 bottle each 3 pax) and water.
 
 **40€ per person**
+
++ 3€ if you want to add coffee
 
 <br>
 
@@ -131,7 +110,10 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 - Assortment of desserts
 
-*Drink package is included. 1 bottle of wine each 3*
+*Drinks*
+
+- Red or white wine (1 bottle each 3 pax), water and coffee.
+They can change wine per beer or soft drinks ( 1 bittle of wine = 2l beer or 4 soft drinks)
 
 **40€ per person**
 
@@ -170,7 +152,17 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 **37€ per person**
 
-**Drinks not included. Drink package is 12€ pax**
++ 3€ if you want to add coffee
+
+**Drink package 1 - 12€**
+
+- 3 drinks (glass of wine, beer, water or soft drink)
+
+**Drink package 2 - 20€**
+
+- 2h open bar (wine, beer, juices, water and soft drinks)
+
+
 
 #### Alternative: Sagardi Castellana
 
@@ -179,11 +171,13 @@ tl %>% setOptions(list(orientation = "top", align = "left"))
 
 **Basic Menu**
 
-8 pintxos + 2 drinks + 2 sweets (per person)
+8 pintxos + 2 drinks (2 glasses of wine or 2 beers or 2 soft drinks) + 2 sweets (per person)
 
 *Pintxos to be chosen in advance*
 
 **34€ per person**
+
+
 
 <br>
 
