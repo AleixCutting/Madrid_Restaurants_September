@@ -1,7 +1,7 @@
 ---
 title: "MADRID GROUP"
 author: "BUSINESS TRAVEL"
-date: '28 September, 2019'
+date: '28&30 September, 2019'
 output:
  
   html_document:
@@ -46,45 +46,33 @@ library(timevis)
 
 **Basic Menu**
 
-*Aperitive*
+    Aperitive
+    Oxtail croquettes
 
-- Oxtail croquettes
+    Starters to choose (in advance)
+    Albahaca salmorejo with tuna sashimi
+    or
+    Clams spanish style
+    or
+    Duck lasagna (with orange)
+    or
+    Tagliatelle salad with allioli, peppers and tuna.
 
-<br>
+    Main course to choose (in advance)
+    Seafood-stuffed hake 
+    or
+    Iberica prey strips (Iberian pork)
+    or
+    Cordon-blue escalope
 
-*Starters to choose*
+    Dessert
+    White chocolate Pannacotta 
 
-- Albahaca salmorejo with tuna sashimi
+    Drinks
+    Red or white wine (1 bottle each 3 pax) and water.
 
-- Clams spanish style
-
-- Duck lasagna (with orange)
-
-- Tagliatelle salad with allioli, peppers and tuna.
-
-<br>
-
-*Main course to choose*
-
-- Seafood-stuffed hake 
-
-- Iberica prey strips (Iberian pork)
-
-- Cordon-blue escalope
-
-<br>
-
-*Desert and coffee*
-
-- White chocolate Pannacotta 
-
-*Drinks*
-
-- Red or white wine (1 bottle each 3 pax) and water.
-
-**40€ per person**
-
-+ 3€ if you want to add coffee
+    *Rates per person: 40€ VAT inc
+    + 3€ if you want to add coffee
 
 <br>
 
@@ -95,27 +83,27 @@ library(timevis)
 
 **Basic Menu**
 
-*To Share menu*
+    To Share menu 
 
-- New Pisco
-- Spanish potatoes
-- Homemade croquettes
-- Nachos Teki
-- Green salad
-- Boletus pizza
-- Curry chicken
-- Fish and chips
+    - New Pisco
+    - Spanish potatoes
+    - Homemade croquettes
+    - Nachos Teki
+    - Green salad
+    - Boletus pizza
+    - Curry chicken
+    - Fish and chips
 
-*Desserts*
+    Desserts
 
-- Assortment of desserts
+    - Assortment of desserts
 
-*Drinks*
+    Drinks
 
-- Red or white wine (1 bottle each 3 pax), water and coffee.
-They can change wine per beer or soft drinks ( 1 bittle of wine = 2l beer or 4 soft drinks)
+    - Red or white wine (1 bottle each 3 pax), water and coffee.
+    They can change wine per beer or soft drinks ( 1 bittle of wine = 2l beer or 4 soft drinks)
 
-**40€ per person**
+    *Rates per person: 40€ VAT inc
 
 <br>
 
@@ -128,39 +116,29 @@ They can change wine per beer or soft drinks ( 1 bittle of wine = 2l beer or 4 s
 
 **Basic Menu**
 
-*Starters* 
+    Starters to shre
+    Russian salad with tuna
+    Iberic ham croquettes
+    Special pizza of picanha, red pesto, arugula and stracciatela.
 
-- Russian salad with tuna
+    Main course to choose
+    Roasted salmon with miso
+    or
+    Ox burguer with cheese and glazed shallots
 
-- Iberic ham croquettes
+    Dessert
+    Chocolate cke with maracuya soup, crunchy honey and cookie ice cream.
 
-- Special pizza of picanha, red pesto, arugula and stracciatela.
+    *Rates per person: 37€ VAT inc
+     + 3€ if you want to add coffee
 
-*Main course to choose*
+    Drink package option 1 - 12€
 
-- Roasted salmon with miso
+    - 3 drinks (glass of wine, beer, water or soft drink)
 
-- Ox burguer with cheese and glazed shallots
+    Drink package option2 - 20€
 
-<br>
-
-*Desert*
-
-- Chocolate cke with maracuya soup, crunchy honey and cookie ice cream.
-
-<br>
-
-**37€ per person**
-
-+ 3€ if you want to add coffee
-
-**Drink package 1 - 12€**
-
-- 3 drinks (glass of wine, beer, water or soft drink)
-
-**Drink package 2 - 20€**
-
-- 2h open bar (wine, beer, juices, water and soft drinks)
+    - 2h open bar (wine, beer, juices, water and soft drinks)
 
 
 
@@ -171,12 +149,12 @@ They can change wine per beer or soft drinks ( 1 bittle of wine = 2l beer or 4 s
 
 **Basic Menu**
 
-8 pintxos + 2 drinks (2 glasses of wine or 2 beers or 2 soft drinks) + 2 sweets (per person)
+    8 pintxos + 2 drinks (2 glasses of wine or 2 beers or 2 soft drinks) + 2 sweets (per person)
 
-*Pintxos to be chosen in advance*
+    *Pintxos to be chosen in advance*
 
-**34€ per person**
-
+    *Rates per person: 34€ VAT inc
+    + 3€ if you want to add coffee
 
 
 <br>
